@@ -1,0 +1,19 @@
+artifact_path: best_estimator
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.9.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.1.1
+mlflow_version: 1.28.0
+model_uuid: c3e0ea2abec04fe0878483c964b80234
+run_id: 934e11bef3e34683986f22e91c107142
+signature:
+  inputs: '[{"name": "gre", "type": "double"}, {"name": "gpa", "type": "double"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+utc_time_created: '2022-09-13 13:08:32.221990'

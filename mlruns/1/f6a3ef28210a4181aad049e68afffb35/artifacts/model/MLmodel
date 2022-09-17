@@ -1,0 +1,19 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.9.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.1.1
+mlflow_version: 1.28.0
+model_uuid: d1b0fd2b78164f0a9d0c9735b9f02a03
+run_id: f6a3ef28210a4181aad049e68afffb35
+signature:
+  inputs: '[{"name": "gre", "type": "double"}, {"name": "gpa", "type": "double"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+utc_time_created: '2022-09-15 11:42:23.024907'
